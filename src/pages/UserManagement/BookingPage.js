@@ -53,8 +53,10 @@ class BookingPage extends Component {
     this.state.bookingdata=[productImage, brandName, genre, days, times,seatTotal]
     const buttonstyle = {
       center: {
-        margin: " 50px 0px 0px 250px",
-        width: "400px",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        width: "500px",
         height: "200px"
       }
     }

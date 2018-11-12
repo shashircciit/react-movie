@@ -47,8 +47,14 @@ class SeatMap extends Component {
     }
     
     render() {
+      const style={
+        display: "block",
+         marginLeft: "auto",
+         marginRight: "auto",
+      }
+
       return (
-        <div>
+        <div style={style}>
           <h1>Choose your Seat</h1>
           <DrawGrid 
             seat = { this.state.seat }
@@ -65,10 +71,12 @@ class SeatMap extends Component {
   
   class DrawGrid extends Component {
     render() {
+    
+
       return (
          <div className="container">
-          <table className="grid">
-            <tbody>
+          <table className="grid" >
+            <tbody >
                 <tr>
                   { this.props.seat.map( row =>
                     <td 
