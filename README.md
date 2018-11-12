@@ -13,20 +13,20 @@ Hello Reader,
 Heroku Link:https://shashi-react.herokuapp.com/
 
 a)Login:abc@gmail.com ||It should be an email.
-b)Password:asdasda . ||Anything
+b)Password:asdasda  ||Anything
 c)Click on Login Button
-d)you will see this url
+d)you will see this URL
 https://shashi-react.herokuapp.com/dashboard 
 or
 localhost:3000/dashboard
-e)Click on User Mnangement on sidebar
-f)You will see list of movies
+e)Click on User Management on a sidebar
+f)You will see the list of movies
 g)Click Book The  Movie
 h)Select Movie Time
 i)select Seat
 j)Click on Add Ticket
-k)You will see changes in cart
+k)You will see changes in a cart
 l)if you want to change Movie Time or Seat please make the changes and click on Add Ticket Again.
 m)Now you can see the changes
-n)On right corner click on circle and you will get logout option
+n)On right corner click on a circle and you will get logout option
 
